@@ -57,7 +57,6 @@
             android:layout_margin="5dp"
             android:text="@string/placeholder"
             android:freezesText="true"
-            android:visibility="gone"
             />
 
 </LinearLayout>

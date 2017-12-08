@@ -22,12 +22,31 @@ android {
     }
 }
 
+androidExtensions {
+    experimental = true
+}
+
 dependencies {
 
     //anko
     compile 'org.jetbrains.anko:anko-sdk15:0.9.1'
     compile 'org.jetbrains.anko:anko-design:0.8.3'
     compile 'org.jetbrains.anko:anko-appcompat-v7:0.8.3'
+
+    compile 'com.squareup.okhttp:okhttp:2.7.0'
+
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.8.4'
+
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    compile 'com.squareup.retrofit2:converter-jackson:2.2.0'
+
+    //rxJava
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.1'
+
+
 
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
