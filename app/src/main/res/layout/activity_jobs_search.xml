@@ -58,6 +58,17 @@
             android:text="@string/placeholder"
             android:freezesText="true"
             />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/jobsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+
+        </ScrollView>
 
 </LinearLayout>
 

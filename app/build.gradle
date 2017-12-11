@@ -28,6 +28,8 @@ androidExtensions {
 
 dependencies {
 
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+
     //anko
     compile 'org.jetbrains.anko:anko-sdk15:0.9.1'
     compile 'org.jetbrains.anko:anko-design:0.8.3'
